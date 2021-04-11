@@ -1,0 +1,28 @@
+{
+  "name": "api-alboom-coffe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn --unhandled-rejections=none src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/node": "^14.14.37",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1",
+    "ticket-code": "^0.1.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
